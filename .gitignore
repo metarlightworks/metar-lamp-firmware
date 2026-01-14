@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Arduino / build artifacts
+*.bin
+*.elf
+*.hex
+*.map
+*.o
+*.a
+*.d
+*.su
+*.lst
+
+# IDE / temp
+.vscode/
+.idea/
+*.swp
+
+# PlatformIO (if you ever use it)
+.pio/
