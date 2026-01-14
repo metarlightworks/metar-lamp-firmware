@@ -19,3 +19,7 @@
 
 # PlatformIO (if you ever use it)
 .pio/
+
+# Secrets
+secrets.h
+firmware/**/secrets.h
