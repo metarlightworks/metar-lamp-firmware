@@ -1,0 +1,10 @@
+{
+  "additionalFiles": "../..,../..,../..",
+  "builtInLibrariesFolders": "/Users/north/Library/Arduino15/libraries",
+  "compiler.optimization_flags": "-Os",
+  "customBuildProperties": "",
+  "fqbn": "esp32:esp32:esp32c3:UploadSpeed=921600,CDCOnBoot=cdc,CPUFreq=160,FlashFreq=80,FlashMode=qio,FlashSize=4M,PartitionScheme=default,DebugLevel=none,EraseFlash=none,JTAGAdapter=default,ZigbeeMode=default",
+  "hardwareFolders": "/Users/north/Library/Arduino15/packages",
+  "otherLibrariesFolders": "/Users/north/Documents/Arduino/libraries",
+  "sketchLocation": "/Users/north/Projects/metar-lamp-firmware/firmware/METARLightworks_App"
+}

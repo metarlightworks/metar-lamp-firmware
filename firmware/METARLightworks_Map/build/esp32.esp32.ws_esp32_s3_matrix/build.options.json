@@ -1,0 +1,10 @@
+{
+  "additionalFiles": "../..,../..,../..",
+  "builtInLibrariesFolders": "/Users/north/Library/Arduino15/libraries",
+  "compiler.optimization_flags": "-Os",
+  "customBuildProperties": "",
+  "fqbn": "esp32:esp32:ws_esp32_s3_matrix:UploadSpeed=921600,USBMode=hwcdc,CDCOnBoot=cdc,MSCOnBoot=default,DFUOnBoot=default,UploadMode=default,CPUFreq=240,FlashMode=qio,FlashSize=4M,PartitionScheme=default,DebugLevel=none,PSRAM=disabled,LoopCore=1,EventsCore=1,EraseFlash=none",
+  "hardwareFolders": "/Users/north/Library/Arduino15/packages",
+  "otherLibrariesFolders": "/Users/north/Documents/Arduino/libraries",
+  "sketchLocation": "/Users/north/Projects/metar-lamp-map-firmware/firmware/METARLightworks_Map"
+}
