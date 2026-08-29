@@ -1,0 +1,18 @@
+Namespace: ktixbasic
+
+Provisioned/preserved customer keys:
+ssid
+pass
+avwx
+bulb_model
+
+Recovery coordination:
+safe_req = install_latest | recovery
+boot_count = uint8
+
+bulb_model:
+absent -> E27
+E27 -> R6 G7 B5 CW3 WW4
+GU10 -> R3 G4 B5 CW6 WW7
+
+Safe Mode must preserve NVS.

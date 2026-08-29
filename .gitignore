@@ -2,6 +2,8 @@
 .DS_Store
 
 # Arduino / build artifacts
+Firmware/METARLightworks_Bulb/METARLightworks_Bulb/build/
+Firmware/METARLightworks_Bulb/Archive.zip
 *.bin
 *.elf
 *.hex

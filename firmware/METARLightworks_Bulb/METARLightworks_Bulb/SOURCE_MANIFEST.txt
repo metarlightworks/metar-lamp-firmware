@@ -1,0 +1,35 @@
+METAR LightWorks Bulb Production v0.2.4 BRANDED FINAL
+
+SOURCE
+  file:    METARLightworks_Bulb_Production_v0.2.4_BRANDED_FINAL_SOURCE.ino
+  bytes:   87301
+  MD5:     618d67bc8aedac0d9badf662880f5d4c
+  SHA-256: 8570a94e38f0194db2439379e04de4a23db2e973c9eea771b0b66e64b226942d
+
+BRANDING
+  Embedded/offline only.
+  Customer UI styled to echo metarlightworks.com.
+  No external assets or runtime website dependency.
+
+HARDWARE
+  default: E27
+  E27:  R6 G7 B5 CW3 WW4
+  GU10: R3 G4 B5 CW6 WW7
+  NVS namespace: ktixbasic
+  NVS key: bulb_model
+
+FINAL PARTITIONS
+  prod 0x010000 size 0x1C0000 ota_0
+  safe 0x1D0000 size 0x1C0000 factory
+  nvs  0x390000 size 0x070000
+
+NOTE
+  These hashes are SOURCE hashes only.
+  Compiled application binary hashes must be calculated after Arduino-ESP32 3.3.11 compilation.
+
+
+v0.2.4a SOURCE
+  file:    METARLightworks_Bulb_Production_v0.2.4a_COMPILE_FIX.ino
+  bytes:   87629
+  MD5:     d9c50e3d733ad08f15c88c0d910a310c
+  SHA-256: ea2964d9a63e3de1c96c0c9af0c9a083508f007f6ec702920ef7f7a293f37505
