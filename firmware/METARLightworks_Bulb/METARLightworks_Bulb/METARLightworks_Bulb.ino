@@ -1,6 +1,6 @@
 /*
   METAR Lightworks - RGBCW Bulb App
-  Version: 0.2.2 PRODUCTION / SAFE-MODE ARCH
+  Version: see version.h
 
   PORT BASIS
   ----------
@@ -44,6 +44,8 @@
 #include <time.h>
 #include <math.h>
 
+#include "version.h"
+
 extern "C" {
   #include "esp_ota_ops.h"
   #include "esp_partition.h"
@@ -51,9 +53,8 @@ extern "C" {
   #include "esp_err.h"
 }
 
-static const char *FW_VERSION = "METAR-BULB-APP-0.2.2-PRODUCTION-SAFE-ARCH";
 static const char *PREF_NAMESPACE = "ktixbasic";  // preserves v0.1.6 ssid/pass
-static const char *AWC_USER_AGENT = "METARLightworks-Bulb/0.2.4a";
+static const char *AWC_USER_AGENT = "METARLightworks-Bulb/" FW_VERSION;
 
 // Permanent production/safe-mode contract.
 static const uint32_t PROD_OFFSET = 0x010000UL;

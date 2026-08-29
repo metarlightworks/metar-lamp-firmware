@@ -22,6 +22,15 @@ Seven-power-cycle recovery and ~30s healthy clear remain in place.
 
 Compile with ESP32C3 Dev Module, Arduino-ESP32 3.3.11, USB CDC Disabled, 160 MHz CPU, 80 MHz flash, DIO, 4 MB, no PSRAM.
 
+RELEASE
+-------
+1. In Arduino IDE, compile/export the application binary with the ESP32-C3 settings above (including DIO).
+2. From the repository root, run:
+
+   ./firmware/METARLightworks_Bulb/release-bulb.sh
+
+The command reads `version.h`, uses only `METARLightworks_Bulb.ino.bin`, and creates or updates the matching GitHub release asset. To validate a local export without publishing, add `--check`.
+
 
 v0.2.4 CUSTOMER UI BRANDING
 ---------------------------
